@@ -1,2 +1,2 @@
 #!/bin/bash
-export -e -c o $CFILE|grep -v -s o
+export CFILE=2-main.c ; gcc -S $CFILE
