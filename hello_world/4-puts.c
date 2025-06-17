@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-\tputs("\"Programming is like building a multilingual puzzle");
-\treturn (0);
+         puts("\"Programming is like building a multilingual puzzle");
+         return (0);
 }
