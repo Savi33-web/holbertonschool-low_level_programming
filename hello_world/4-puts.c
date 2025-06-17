@@ -6,6 +6,6 @@
  */
 int main(void)
 {
- t\puts("\"Programming is like building a multilingual puzzle");
+ \tputs("\"Programming is like building a multilingual puzzle");
  \treturn (0);
 }
