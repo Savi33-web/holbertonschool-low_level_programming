@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-  int byte(s) = 4;
-  long long bytes(s) = 8;
+  int bytes = 4;
+  long long bytes = 8;
   return (0);
 }  
