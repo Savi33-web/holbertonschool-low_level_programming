@@ -8,5 +8,5 @@
 int main(void)
 {
 \tputs("\"Programming is like building a multilingual puzzle");
-\t return (0);
+\treturn (0);
 }
