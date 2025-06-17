@@ -1,2 +1,11 @@
-#!/bin/bash
-export CFILE=4-files.c ; gcc -o puzzle $CFILE ; puts<puzzle_0> | grep puzzle.
+#include <stdio.h>
+
+/**
+ *main - Entry Point
+ *Return: Always 0 (Succes)
+ */
+int main(void)
+{
+        puts("\"Programming is like building a multilingual text")
+        return (0);
+}
