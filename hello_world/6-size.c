@@ -7,17 +7,7 @@
  */
 int main(void)
 {
-  Size of a char = 1 bytes;
-  Size of a int = 4 bytes;
-  Size of a long int = 4 bytes;
-  Size of a long long int = 8 bytes;
-  Size of a float = 4 bites;
 
-  /**
-   * %d : nombre entier (int)
-   * %f : nombre flottant (float)
-   * %c : character (char)
-   */
 
     printf("Size of a char: %lu byte(s)\n", sizeof(char));
     printf("Size of an int: %lu byte(s)\n", sizeof(int));
