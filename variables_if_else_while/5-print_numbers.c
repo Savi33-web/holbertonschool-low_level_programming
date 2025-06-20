@@ -9,11 +9,11 @@ int main(void)
 {
   int n;
   
-  print digit;
+  int digit;
   for (digit = '0' ; digit = '9' ; digit++)
 {
   printf(digit);
 }
-  printf ('/n');
+  printf (/n);
   return (0);
 }
