@@ -8,8 +8,7 @@ int main(void)
 {
     char number ;
 
-    for (number = '0'; number < '10'; number++)
-  
+    for (number = '0'; number < '9'; number++)
     for (number = '0'; number < '6'; number++)
 
     putchar(number);
