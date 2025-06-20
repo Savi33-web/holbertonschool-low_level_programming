@@ -14,6 +14,6 @@ int main(void)
 {
   printf(digit);
 }
-  printf('/n')
-  Return (0);
+  printf ('/n')
+  return (0);
 }
