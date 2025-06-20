@@ -8,8 +8,10 @@ int main(void)
 {
     char number ;
 
+    for (number = '0'; number <= '9'; number++)
     for (number = '0'; number <= '15'; number++)
-        putchar(digit);
+
+    putchar(digit);
 
     putchar('\n');
     return (0);
