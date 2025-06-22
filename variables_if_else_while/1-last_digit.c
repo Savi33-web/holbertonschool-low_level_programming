@@ -15,6 +15,10 @@ int main(void)
     n = rand();
     last_digit = n % 10;
 
+    /* Ensure the digit is positive even if n is negative */
+    if (last_digit < 0)
+        last_digit *= -1;
+
     printf("Last digit of %d is %d and is ", n, last_digit);
 
     if (last_digit > 5)
@@ -26,6 +30,7 @@ int main(void)
 
     return 0;
 }
+
 
 
 
