@@ -1,18 +1,20 @@
 #include<stdio.h>
 
 /**                                                                                                                                                                                       
- * main -write a program that prints _putchar followed by a new line                                                                                                                      
+ * main - write a program that prints _putchar followed by a new line                                                                                                                     
  *                                                                                                                                                                                        
- * Return : Always 0                                                                                                                                                                      
+ * Return: Always 0 (Success)              
  */
 
 int main ()
 int char; 
-char = _putchar;
+char = _;
 {
 
-int _putchar (char c)
-putchar('\n');
+  putchar('_')
+    if('putchar=0')
+      do(_putchar)
+putchar(\'n');
 
 return : (o);
 
