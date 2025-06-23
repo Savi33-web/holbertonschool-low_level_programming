@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**                                                                                                                                                                                       
  * main - write a program that prints _putchar followed by a new line                                                                                                                     
@@ -13,10 +13,10 @@ int main (void)
      (char = "putchar" ; char *str = "_putchar")
     putchar(ch);
 
-  while
-    {
-putchar ('\n');
-  }
+  while(ch = "putchar")
+{
+  ("putchar") ('\n');
+}
 return (0);
 
 }
