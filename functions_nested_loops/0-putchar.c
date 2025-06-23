@@ -12,7 +12,7 @@ int main (void)
 char _putchar
 for (char =  "_putchar")
 {
- putchar(_putchar)
+ putchar (_putchar)
 
  putchar ('/n');
  }
