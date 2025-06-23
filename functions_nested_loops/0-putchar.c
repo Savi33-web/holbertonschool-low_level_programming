@@ -10,10 +10,9 @@ int main(void)
 
 {
 
-  char _putchar
-    for(char = "_putchar")
+  int _putchar (char c)
 
-      putchar('/n');
+      putchar('\n');
 
  return : (o);
 
