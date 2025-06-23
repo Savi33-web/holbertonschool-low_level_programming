@@ -3,20 +3,21 @@
 /**                                                                                                                                                                                       
  * main - write a program that prints _putchar followed by a new line                                                                                                                     
  *                                                                                                                                                                                        
- * Return: Always 0 (Success)              
+ * Return: Always 0 (Success)                                                                                                                                                             
  */
 
-int main ()
-int char; 
-char = _;
+int main (void)
 {
+  int ch;
+  do
+     (char = "putchar" ; char *str = "_putchar")
+    putchar(ch);
 
-  putchar('_')
-    if('putchar=0')
-      do(_putchar)
-putchar(\'n');
-
-return : (o);
+  while
+    {
+putchar ('\n');
+  }
+return (0);
 
 }
 
