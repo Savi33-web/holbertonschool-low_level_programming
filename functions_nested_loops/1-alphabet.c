@@ -6,16 +6,17 @@
  * Return: Always 0.
  */
 int main(void)
-{
-   
-  char word[] = "letter";
-    int i= 0;
-  do  (letter = 'a'; letter <= 'z'; letter++)
-	while (word[i] != '\0')
-	  {
-	    _putchar(word[i]);
-	    i++;
-    }
+{ int i = 'a';
+
+
+ while (i <= 'z')
+   _putchar (i);
+ i++;
+ 
+}
+ print_alphabet();
+
+
    _putchar('\n');
     
     return (0);
