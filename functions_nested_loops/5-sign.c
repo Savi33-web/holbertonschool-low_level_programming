@@ -7,22 +7,26 @@
  * Returns 0 and prints 0 if n is zero
  * Returns -1 and prints - if n is less than zero
  */
-int print_sign()
+int main(void)
 {
 int n;
-{
-if (n > 0)
-{
-    _putchar('+');
-    return 1;
-}
-else if (n == 0)
-{
-    _putchar('0');
-    return 0;
-}
-else
-{
-    _putchar('-');
-    return -1;
-}
+ char +;
+ char 0;
+ char -;
+ {
+while(n > 0)
+  _putchar('+');
+    return (1);
+
+ while(n = 0)
+   _putchar(o);
+ return (0);
+ 
+ while(n < 0)
+   _putchar(-);
+ return (-1)
+_putchar('\n');
+   }
+
+ return;
+    }
