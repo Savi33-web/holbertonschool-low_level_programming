@@ -12,34 +12,18 @@ int print_sign(int n)
 int r;
 int n;
 {
-if ('n' > 0)
-return 1;
-if else('n' = 0)
-return 0;
-else('n' <= -1)
-return -1; 
-}
+if (n > 0)
 {
-r = print_sign(98);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(0);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(0xff);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
-r = print_sign(-1);
-_putchar(',');
-_putchar(' ');
-_putchar(r + '0');
-_putchar('\n');
+    _putchar('+');
+    return 1;
 }
-return;
+else if (n == 0)
+{
+    _putchar('0');
+    return 0;
+}
+else
+{
+    _putchar('-');
+    return -1;
 }
