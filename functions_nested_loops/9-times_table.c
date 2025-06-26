@@ -15,5 +15,5 @@ int i;
 
  
     times_table();
-    return (0);
+    return;
 }
