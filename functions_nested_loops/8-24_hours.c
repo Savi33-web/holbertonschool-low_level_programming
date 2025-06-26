@@ -5,12 +5,22 @@
  * @n: the integer to extract the hour from 00:00 to 23:59.
  * Return: the value of the hours of the day.
  */
-int main(void)
+void jack_bauer(void)
+
 {
-  int hour;
-hour = n % 24;
-if(hour < 24)
-  hour = - hour;
-_putchar('24' - hour);
-return (hour);
+
+int hour, minute;
+
+for (hour = 0; hour < 24; hour++)
+{
+for (minute = 0; minute < 60; minute++)
+{
+_putchar((hour / 10) + '0');
+_putchar((hour % 10) + '0');
+_putchar(':');
+_putchar((minute / 10) + '0');
+_putchar((minute % 10) + '0');
+_putchar('\n');
+        }
+    }
 }
