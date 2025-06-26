@@ -1,30 +1,17 @@
 #include "main.h"
 
 /**
- * main - check the code using _putchar
+ * _abs - Computes the absolute value of an integer
+ * @n: The integer to evaluate
  *
- * Return: Always 0.
+ * Return: The absolute value of the integer
  */
-int main(void)
+int _abs(int n)
 {
-	int r;
-
-	r = _abs(-1);
-	_putchar(r + '0');
-	_putchar('\n');
-
-	r = _abs(0);
-	_putchar(r + '0');
-	_putchar('\n');
-
-	r = _abs(1);
-	_putchar(r + '0');
-	_putchar('\n');
-
-	r = _abs(-9); /* Prints only single digits correctly */
-	_putchar(r + '0');
-	_putchar('\n');
-
-	return (0);
+    if (n < 0)
+        return (-n);
+    else
+        return (n);
 }
+
 
