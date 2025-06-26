@@ -11,8 +11,11 @@ int i;
 
 
  {
-   for (i=1; i<10; i++) 
-
+for (i = 1; i < 10; i++)
+{
+    _putchar(i + '0');
+    _putchar('\n');
+}
  
     times_table();
     return;
