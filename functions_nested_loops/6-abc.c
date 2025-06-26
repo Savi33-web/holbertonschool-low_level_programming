@@ -1,28 +1,30 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h> // Needed for abs()
 
 /**
- * main - Demonstrates use of abs()
+ * main - check the code using _putchar
+ *
  * Return: Always 0.
  */
 int main(void)
 {
-  int r;
-  int s;
-  int t;
-  int u;
+	int r;
 
-  int r= -1;
-  int s = 0;
-  int t = 1;
-  int u = -98;
-  {
-    r = abs(r);
-    _putchar('r');
-    _putchar('s');
-    _putchar('t');
-    _putchar('u');
-  }
-    return 0;
+	r = _abs(-1);
+	_putchar(r + '0');
+	_putchar('\n');
+
+	r = _abs(0);
+	_putchar(r + '0');
+	_putchar('\n');
+
+	r = _abs(1);
+	_putchar(r + '0');
+	_putchar('\n');
+
+	r = _abs(-9); /* Prints only single digits correctly */
+	_putchar(r + '0');
+	_putchar('\n');
+
+	return (0);
 }
+
