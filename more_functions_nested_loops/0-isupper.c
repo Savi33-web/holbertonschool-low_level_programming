@@ -5,9 +5,10 @@
  * main -  Declare _putchar if not declared in any header
  * Return: Always 0
  */
-int _isupper(int c);
-
 {
+int _isupper(int c);
+char c;
+
     
     c = 'A';
     { if ((c >= 'A' && c <= 'Z'))
