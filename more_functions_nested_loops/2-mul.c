@@ -8,11 +8,13 @@
  */
 int mul(int a, int b)
 {
-  int a, b;
-  if (a * b)
-    
+  int a, b, product;
+  int a => 0;
+  int b => 0;
   
-
+  product (num1 * num2)
+    
+ 
   
     return (0);
 }
