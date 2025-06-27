@@ -17,5 +17,3 @@ void print_number(int n);
 int add(int a, int b);
 
 #endif /* MAIN_H */
-
-#endif /* MAIN_H */
