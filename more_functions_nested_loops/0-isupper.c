@@ -13,13 +13,15 @@ int _isupper(int c);
     
     c = 'A';
     { if (_isupper(c))
-        _putchar('1');
+        _putchar('1');}
+    {
     else
         _putchar('0');
-
+    }
+    {
     c = 'a';
     if (_isupper(c))
-        _putchar('1');
+      _putchar('1');}
     else 
     {        _putchar('0');
 
