@@ -1,27 +1,23 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer using only _putchar
- * @n: the integer to print
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: starting number
  */
-void print_number(int n)
+void print_to_98(int n)
 {
-    unsigned int num;
-
-    if (n < 0)
+    while (n != 98)
     {
-        _putchar('-');
-        num = -n;
+        print_number(n);
+        _putchar(',');
+        _putchar(' ');
+        if (n < 98)
+            n++;
+        else
+            n--;
     }
-    else
-    {
-        num = n;
-    }
-
-    if (num / 10)
-        print_number(num / 10);
-
-    _putchar((num % 10) + '0');
+    print_number(98);
+    _putchar('\n');
 }
 
 
