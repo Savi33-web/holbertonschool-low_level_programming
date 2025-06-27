@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * main - Write a function that prints the 9 times table, starting with 0.
- *
- * Return: Always 0.
+ * times_table - prints the 9 times table, starting with 0
  */
 void times_table(void)
 {
-  char a,b,c,d,e,f,g,h,i,j;
-  char str[a,b,c,d,e,f,g,h,i,j]= times_table;
+    int i, j, product;
 
-  {
-    for (
+    for (i = 0; i <= 9; i++)
+    {
+        for (j = 0; j <= 9; j++)
+        {
+            product = i * j;
 
+            // Affichage de product ici avec bon espacement
+        }
 
-  times_table();
-    return (0);
+        _putchar('\n');
+    }
 }
+
