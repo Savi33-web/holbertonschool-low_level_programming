@@ -15,10 +15,19 @@ int main(void)
       _putchar (',');
     _putchar (' ');
   }
-  print_to_98(0);
-    print_to_98(98);
-    print_to_98(111);
-    print_to_98(81);
-    print_to_98(-10);
+
+      if (n < 0)
+    {
+        _putchar('-');
+        n = -n;
+    }
+    if (n / 10)
+        print_number(n / 10);
+    _putchar((n % 10) + '0');
+  {
+    int n = 42;
+    print_number(n);
+    _putchar('\n');
     return (0);
 }
+   
