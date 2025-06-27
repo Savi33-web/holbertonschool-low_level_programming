@@ -1,21 +1,27 @@
-#include "main.h"
-#include <ctype.h>
+#include "main.h"  // Assuming _putchar is declared here, or add declaration below
 
-/**
- * main - Tests the isupper function using _putchar
- *
- * Return: Always 0.
- */
+/* Declare _putchar if not declared in any header */
+int _putchar(char c);
+
 int main(void)
 {
-    char c = 'G';
+    char c;
 
-    if (isupper(c))
-        _putchar('1');  // Output '1' if c is uppercase
+    c = 'A';
+    if (_isupper(c))
+        _putchar('1');
     else
-        _putchar('0');  // Output '0' otherwise
+        _putchar('0');
+
+    c = 'a';
+    if (_isupper(c))
+        _putchar('1');
+    else
+        _putchar('0');
 
     _putchar('\n');
+
     return (0);
 }
+
 
