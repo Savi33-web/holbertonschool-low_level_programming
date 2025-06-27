@@ -1,4 +1,6 @@
-#include "main.h"  // Assuming _putchar is declared here, or add declaration below
+#include "main.h"
+
+// Assuming _putchar is declared here, or add declaration below
 
 /* Declare _putchar if not declared in any header */
 int _putchar(char c);
