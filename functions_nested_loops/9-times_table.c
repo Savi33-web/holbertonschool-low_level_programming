@@ -5,18 +5,18 @@
  */
 void times_table(void)
 {
-    int i, j, product;
+int i, j, product;
 
-    for (i = 0; i <= 9; i++)
-    {
-        for (j = 0; j <= 9; j++)
-        {
-            product = i * j;
+for (i = 0; i <= 9; i++)
+{
+for (j = 0; j <= 9; j++)
+{
+product = i * j;
 
-            // Affichage de product ici avec bon espacement
-        }
+// Affichage de product ici avec bon espacement
+}
 
-        _putchar('\n');
-    }
+_putchar('\n');
+}
 }
 
