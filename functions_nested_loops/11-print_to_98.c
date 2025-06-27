@@ -9,9 +9,9 @@ int main(void)
 {
   int n;
 
-  for (n = 0; n < 99; n++);
+  for (n = 0; n < 99; n++)
   {
-    print_number(n)
+    print_number(n);
       _putchar (',');
     _putchar (' ');
   }
