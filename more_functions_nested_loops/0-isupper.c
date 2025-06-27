@@ -8,11 +8,9 @@
 int _isupper(int c);
 
 {
-    char c;
-    int _putchar(char c);
     
     c = 'A';
-    { if (_isupper(c))
+    { if ((c >= 'A' && c <= 'Z'))
         _putchar('1');}
     {
     else
@@ -20,7 +18,7 @@ int _isupper(int c);
     }
     {
     c = 'a';
-    if (_isupper(c))
+    if ((c >= 'a' && c <= 'z'))
       _putchar('1');}
     else 
     {        _putchar('0');
