@@ -10,9 +10,9 @@ int _isupper(int c);
 {
     char c;
     int _putchar(char c);
-
+    
     c = 'A';
-    if (_isupper(c))
+    { if (_isupper(c))
         _putchar('1');
     else
         _putchar('0');
@@ -20,11 +20,11 @@ int _isupper(int c);
     c = 'a';
     if (_isupper(c))
         _putchar('1');
-    else
-        _putchar('0');
+    else 
+    {        _putchar('0');
 
     _putchar('\n');
-
+    }
     return (0);
 }
 
