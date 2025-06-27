@@ -5,6 +5,8 @@
  * @n: the integer to print
  */
 void print_number(int n)
+{return(a + b);
+    }
 {
     if (n < 0)
     {
@@ -16,7 +18,7 @@ void print_number(int n)
     _putchar((n % 10) + '0');
 }
 
-
+int mian (void);
 {
     int result;
 
